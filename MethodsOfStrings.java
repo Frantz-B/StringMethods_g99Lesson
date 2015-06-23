@@ -11,7 +11,10 @@ class MethodsOfStrings{
 			System.out.println(ability1.concat(raceString));
 			System.out.println("\n\n\n The length of my raceString is "+raceString.length());
 
-			System.out.println("\n The Character at position 4 is: "+raceString.charAt(4));//expecting A counting from 0
-			System.out.println("The Index of Character 'i' is: "+raceString.indexOf('i'));//expecting 2 counting from 0
+			System.out.println("\n The Character at position 4 is: "+raceString.charAt(4));//expecting 'a' counting from 0
+			System.out.println("The Index of Character 'i' is: "+raceString.indexOf('i'));//expecting '2' counting from 0
+			//I was right which meant that .length() method starts from 1
+			System.out.println("\n\n Compare my Race with something improper : "+raceString.compareTo("saiyan"));
+			System.out.println(" Compare my Race regardless of case sensitivity : "+raceString.compareToIgnoreCase("saiya-jin"));
 	}
 }
