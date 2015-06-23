@@ -14,7 +14,10 @@ class MethodsOfStrings{
 			System.out.println("\n The Character at position 4 is: "+raceString.charAt(4));//expecting 'a' counting from 0
 			System.out.println("The Index of Character 'i' is: "+raceString.indexOf('i'));//expecting '2' counting from 0
 			//I was right which meant that .length() method starts from 1
-			System.out.println("\n\n Compare my Race with something improper : "+raceString.compareTo("saiyan"));
-			System.out.println(" Compare my Race regardless of case sensitivity : "+raceString.compareToIgnoreCase("saiya-jin"));
+			System.out.println("\n\n Compare my Race with something improper 'saiyan' : "+raceString.compareTo("saiyan"));
+			System.out.println(" Compare my Race with something improper 'red' : "+raceString.compareTo("saiyan"));//Not sure how lexicographically works
+			System.out.println(" Compare my Race regardless of case sensitivity 'saiya-jin' : "+raceString.compareToIgnoreCase("saiya-jin"));
+			System.out.println("\n\n Using contains method to see if my raceString has 'jin' in it : "+raceString.contains("jin"));
+			System.out.println(" Using contains method to see if my raceString has 'ay' in it : "+raceString.contains("ay"));
 	}
 }
