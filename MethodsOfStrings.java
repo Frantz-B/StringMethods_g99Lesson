@@ -19,5 +19,11 @@ class MethodsOfStrings{
 			System.out.println(" Compare my Race regardless of case sensitivity 'saiya-jin' : "+raceString.compareToIgnoreCase("saiya-jin"));
 			System.out.println("\n\n Using contains method to see if my raceString has 'jin' in it : "+raceString.contains("jin"));
 			System.out.println(" Using contains method to see if my raceString has 'ay' in it : "+raceString.contains("ay"));
+			//Wow, string has a lot of methods
+			System.out.println("\n\n My raceString ends with the suffix 'jin' : "+raceString.endsWith("jin"));
+			System.out.println("Replacing Saiya with another type of race I fit into  : "+raceString.replace("Saiya","Shinobi"));
+			System.out.println("Replacing 'i' with 2 characters to kinda look like 'a'  : "+raceString.replace("a","0I"));
+			System.out.println(" Making my String all lowercase : "+raceString.toLowerCase());
+			System.out.println(" Making my string all Uppercase : "+raceString.toUpperCase());		
 	}
 }
